@@ -1,0 +1,39 @@
+<?php
+   /* tipos de variables */
+$string = "TEXTO";
+
+$int = 1;
+$double = 10,1;
+
+
+$result = 5+6;
+echo $result;
+/*
+$nota1=4,5;
+$nota2=4,3;
+$nota3=2;
+$nota4=3,3;
+$nota5=1,1;
+$nota6=5;
+$nota7=2,9;
+$nota8=2,41;
+$nota9=1,7;
+$nota10=4;
+$nota11=5;
+$nota12=3,5;
+$nota13=3,5;
+$nota14=2,4;
+$nota15=4;*/
+while($i<15){
+  $nota = rand(0,5);
+
+  if ($nota=>3){
+    echo "APROBÓ.";
+  } else {
+    echo "REPROBÓ.";
+  }
+  
+  $i++
+}
+
+?>
